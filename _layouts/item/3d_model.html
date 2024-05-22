@@ -1,0 +1,16 @@
+---
+# basic layout for 3d models using o3dv library
+# assumes Item has the link or relative path to the model file in the "object_location" value
+layout: item/item-page-base
+---
+<div class="card mb-4 text-center">
+
+    {% include item/o3dv-embed.html model=page.object_location %}
+    
+    <div class="card-body">
+
+        {% include item/download-buttons.html %}
+
+    </div>
+
+</div>

@@ -10,9 +10,7 @@
     - "alt" = alternative description
 
 {% endcomment %}
-<div class="online_3d_viewer w-100"
-    style="height: {{ include.height | default: '500px' }};"
-    model="{{ include.model | relative_url }}">
+<div class="online_3d_viewer w-100" style="height: {{ include.height | default: '500px' }};" model="{{ include.model | relative_url }}">
     <div class="visually-hidden">3D model embed, {{ include.alt }}</div>
 </div>
 <script type="text/javascript" src="{{ '/assets/lib/o3dv/o3dv.min.js' | relative_url }}"></script>

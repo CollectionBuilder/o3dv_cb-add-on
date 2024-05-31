@@ -2,7 +2,7 @@
 
 CollectionBuilder-CSV Add-on: Online 3D Viewer
 
-This repository provides template files to add an JuxtaposeJS image comparison slider option into a CollectionBuilder-CSV project. The files in this directory structure can be copied directly into a CB-CSV repository to add the new features.
+This repository provides template files to add an Online3DViewer option into a CollectionBuilder-CSV project. The files in this directory structure can be copied directly into a CB-CSV repository to add the new features.
 
 *note: only compatible with CB-CSV out of the box, not other templates*
 
@@ -31,7 +31,7 @@ General 3D model tips:
 
 ### Embed on Content Page
 
-Use include the feature/o3dv-embed.html include, e.g.
+Use the feature/o3dv-embed.html include, e.g.
 `{% include item/o3dv-embed.html model="/objects/example.obj" %}`
 
 ### Add to Item Pages
